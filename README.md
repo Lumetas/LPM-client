@@ -4,6 +4,15 @@
 
 Lum Project Manager - небольшое клиент-серверное приложение для управления вашими проектами№.
 
+## Установка
+
+Поскольку клиентская часть представляет собой bash скрипт то установки он не требует можете просто закинуть его в "/usr/bin". 
+
+Например так:
+~~~
+wget "https://raw.githubusercontent.com/Lumetas/LPM-client/main/lpm"; chmod +x lpm; sudo mv lpm /usr/bin
+~~~
+
 ## Оформление конфигурационного файла(lumake).
 ~~~
 project

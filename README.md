@@ -42,7 +42,7 @@ lpm [init, run, build] - Для выполнения команд инициал
 
 Так же серверные функции. Они имеют другой синтаксис и не обязаны использоваться в папке проекта. Синтаксис:
 ~~~
-lpm server example.com:8000 command lumproj
+lpm server example.com:8000 command project
 ~~~
 Команды: 
 

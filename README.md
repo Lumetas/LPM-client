@@ -1,3 +1,3 @@
 # LPM-client
 
-(https://github.com/Lumetas/LPM-server)[Серверная часть]
+[Серверная часть](https://github.com/Lumetas/LPM-server)

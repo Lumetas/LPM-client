@@ -57,22 +57,21 @@ if [[ $1 == "server" ]]; then
 	if [[ $3 == "init" ]]; then
 
 
-		curl "$2?func=init&name=$4&password=$pass"
+		curl "$2?func=init&name=$4&password=$pass" 
 		
 
 	fi
 	if [[ $3 == "run" ]]; then
 
 
-		curl "$2?func=run&name=$4&password=$pass"
+		curl "$2?func=run&name=$4&password=$pass" &
 		
 
 	fi
 	if [[ $3 == "build" ]]; then
 
 
-		curl "$2?func=build&name=$4&password=$pass"
-		
+		curl "$2?func=build&name=$4&password=$pass" &
 
 	fi
 	if [[ $3 == "version" ]]; then
